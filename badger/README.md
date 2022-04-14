@@ -8,3 +8,5 @@
  
 
 &hearts; Modules specifically for the Badger 2040 can be found [here](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/modules/badger2040).
+
+&hearts; And example programs can be found [here](https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/badger2040).
