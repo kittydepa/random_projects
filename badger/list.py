@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Example from pimoroni-pico GitHub repo
 
+=======
+>>>>>>> 57433bf5065e13284860fa6cb73f6b44bf2b3422
 import binascii
 
 import badger2040
