@@ -1,5 +1,5 @@
 # Taken from pimoroni-pico's GitHub repo
-#TODO: Replace image
+# TODO: Replace image
 
 import time
 import badger2040
