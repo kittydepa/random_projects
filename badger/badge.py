@@ -135,7 +135,7 @@ def draw_badge():
 
 # Create a new Badger and set it to update NORMAL
 display = badger2040.Badger2040()
-display.led(128)
+display.led(50)
 display.update_speed(badger2040.UPDATE_NORMAL)
 
 # Open the badge file
