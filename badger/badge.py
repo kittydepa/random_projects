@@ -1,5 +1,4 @@
 # Taken from pimoroni-pico's GitHub repo
-# TODO: Replace image
 
 import time
 import badger2040
@@ -33,7 +32,7 @@ Nov. 2021"""
 BADGE_IMAGE = bytearray(int(IMAGE_WIDTH * HEIGHT / 8))
 
 try:
-    open("badge-image.bin", "rb").readinto(BADGE_IMAGE)
+    open("me.bin", "rb").readinto(BADGE_IMAGE)
 except OSError:
     try:
         import badge_image
@@ -173,6 +172,15 @@ detail2_text = truncatestring(detail2_text, DETAILS_TEXT_SIZE,
 
 draw_badge()
 
+while True:
+    if display.pressed(badger2040.BUTTON_A) or display.pressed(badger2040.BUTTON_B) or display.pressed(badger2040.BUTTON_C) or display.pressed(badger2040.BUTTON_UP) or display.pressed(badger2040.BUTTON_DOWN):
+        badger_os.warning(display, "To change the text, connect Badger2040 to a PC, load up Thonny, and modify badge.txt")
+        time.sleep(4)
+
+        draw_badge()
+
+    #display.update() # This line needs to be here, at least when you first start up the Badger/load this program, otherwise it won't render.
+                     # But afterwards, you can comment this out so that it is not blinking all the time(?)
 
 # If on battery, halt the Badger to save power, it will wake up if any of the front buttons are pressed
 display.halt()
