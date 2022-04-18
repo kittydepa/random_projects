@@ -14,3 +14,4 @@ Here is a help article by Real Python that explains more on why this happens, an
 ## Additional resources
 * what is [Cucumber](https://cucumber.io/docs/guides/overview/)?
 * other ways of testing, [using PyTest with BDD](https://realpython.com/pytest-python-testing/#pytest-bdd)
+* more `behave` [tutorials](https://behave.readthedocs.io/en/stable/more_info.html)
