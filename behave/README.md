@@ -1,4 +1,4 @@
-# behave - Cucucmber BDD testing with Python
+# behave - Cucumber BDD testing with Python
 * official [tutorial](https://behave.readthedocs.io/en/stable/tutorial.html)
 * Gherkin syntax [guide](https://cucumber.io/docs/gherkin/reference/) 🥒 
 
