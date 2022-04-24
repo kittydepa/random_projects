@@ -4,6 +4,7 @@ A repo for all my random projects
 <br><br>
 Mostly focusing on consumer- and hobbyist-electronic products, aimed for beginners.
 
+Also random software-learning related projects to fulfill my curiousities.
 
 ----
 
